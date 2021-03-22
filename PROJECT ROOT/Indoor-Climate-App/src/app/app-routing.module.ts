@@ -8,13 +8,18 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'login',
+    redirectTo: 'question1',
     pathMatch: 'full'
   },
   {
     path: 'login',
     loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
   },
+  {
+    path: 'question1',
+    loadChildren: () => import('./question1/question1.module').then( m => m.Question1PageModule)
+  },
+
 ];
 
 @NgModule({
