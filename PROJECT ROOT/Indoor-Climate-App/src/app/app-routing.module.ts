@@ -18,11 +18,16 @@ const routes: Routes = [
   {
     path: 'sign-up',
     loadChildren: () => import('./sign-up/sign-up.module').then( m => m.SignUpPageModule)
-{
+  },
+  {
     path: '',
     redirectTo: 'question1',
     pathMatch: 'full'
 
+  },
+  {
+    path:'question1',
+    loadChildren: () => import('./question1/question1.module').then(m => m.Question1PageModule)
   },
   {
     path: 'welcome',
