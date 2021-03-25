@@ -1,0 +1,45 @@
+.setup-img {
+    width: 200px;
+    position: absolute;
+    left: 20%; 
+    right: 20%;
+    top: 42%; 
+    -webkit-animation: spin 5s linear infinite;
+    -moz-animation: spin 5s linear infinite;
+    animation: spin 5s linear infinite;
+  }
+
+  @-webkit-keyframes spin {
+      100% {
+          -webkit-transform: rotate(360deg);
+      }
+  }
+  @-moz-keyframes spin {
+      100% {
+          -webkit-transform: rotate(360deg);
+      }
+  }
+  @keyframes spin {
+      100% {
+          -webkit-transform: rotate(360deg);
+      }
+  }
+
+  ion-menu-button {
+    color: white;
+    background-color:  #081A24;
+    float: left;
+    width: unset;
+    font-size: 2em;
+    margin-top: 0.3em;
+    margin-left: 0.3em;
+}
+ion-header{
+    background-color: #081A24;
+}
+.ion-text-center{
+    font-size: 3em;
+
+}
+
+

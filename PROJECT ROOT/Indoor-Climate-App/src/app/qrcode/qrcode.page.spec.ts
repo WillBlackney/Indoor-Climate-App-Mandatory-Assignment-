@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { LastpagePage } from './lastpage.page';
+import { QrcodePage } from './qrcode.page';
 
-describe('LastpagePage', () => {
-  let component: LastpagePage;
-  let fixture: ComponentFixture<LastpagePage>;
+describe('QrcodePage', () => {
+  let component: QrcodePage;
+  let fixture: ComponentFixture<QrcodePage>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ LastpagePage ],
+      declarations: [ QrcodePage ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(LastpagePage);
+    fixture = TestBed.createComponent(QrcodePage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));
