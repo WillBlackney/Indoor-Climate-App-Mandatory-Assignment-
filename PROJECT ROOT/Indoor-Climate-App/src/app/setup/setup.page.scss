@@ -1,0 +1,51 @@
+ion-header {
+    background: #081A24 ;
+    border-bottom: 2em solid#081A24 ;
+}
+ion-menu-button {
+    color: white;
+    float: left;
+    width: unset;
+    font-size: 2em;
+    margin-top: 0.3em;
+    margin-left: 0.3em;
+}
+
+.usericon {
+    color: white;
+    font-size: 2em;
+    float: right;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+  }
+
+  #setup-title {
+      font-size: 2rem;
+  }
+
+  .setup-img {
+      width: 200px;
+      position: absolute;
+      left: 20%; 
+      right: 20%;
+      top: 35%; 
+      -webkit-animation: spin 5s linear infinite;
+      -moz-animation: spin 5s linear infinite;
+      animation: spin 5s linear infinite;
+    }
+
+    @-webkit-keyframes spin {
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+    @-moz-keyframes spin {
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+    @keyframes spin {
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }

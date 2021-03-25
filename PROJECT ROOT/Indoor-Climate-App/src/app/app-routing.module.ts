@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'question1',
+    redirectTo: 'setup',
     pathMatch: 'full'
   },
   {
@@ -19,6 +19,16 @@ const routes: Routes = [
     path: 'question1',
     loadChildren: () => import('./question1/question1.module').then( m => m.Question1PageModule)
   },
+  {
+    path: 'setup',
+    loadChildren: () => import('./setup/setup.module').then( m => m.SetupPageModule)
+  },
+  {
+    path: 'welcome',
+    loadChildren: () => import('./welcome/welcome.module').then( m => m.WelcomePageModule)
+  },
+
+
 
 ];
 
