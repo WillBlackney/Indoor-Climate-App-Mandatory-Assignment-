@@ -1,0 +1,22 @@
+.usericon {
+    color: white;
+    font-size: 2em;
+    float: right;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+}
+.button-native::after {
+    display: none;
+ }
+ion-header {
+    background-color:#081A24 ;
+}
+ion-menu-button {
+    color: white;
+    background-color: #081A24;
+    float: left;
+    width: unset;
+    font-size: 2em;
+    margin-top: 0.3em;
+    margin-left: 0.3em;
+}

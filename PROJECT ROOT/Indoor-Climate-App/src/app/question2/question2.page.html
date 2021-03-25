@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-menu-button menu="main-menu"></ion-menu-button>
+  <ion-icon name="person-circle-outline" class="usericon"></ion-icon>
+</ion-header>
+  
+<ion-content color="primary">
+  <ion-title class="ion-text-center" color="light" >Hi, Pilu!</ion-title>
+  <ion-row style="height: 50px"></ion-row>
+  <ion-label>CELSIUS</ion-label>
+  <ion-range min="1000" max="2000" step="100" value="1400" snaps color="light">
+    <ion-icon slot="start" size="small" color="light" name="thermometer"></ion-icon>
+    <ion-icon slot="end" color="light" name="thermometer"></ion-icon>
+    </ion-range>
+    <ion-label>HUMIDITY</ion-label>
+  
+    <ion-range min="1000" max="2000" step="100" value="1400" snaps color="light">
+      <ion-icon slot="start" size="small" color="light" name="thermometer"></ion-icon>
+      <ion-icon slot="end" color="light" name="thermometer"></ion-icon>
+    </ion-range>
+
+    <ion-label></ion-label>
+  
+    <ion-range min="1000" max="2000" step="100" value="1400" snaps color="light">
+      <ion-icon slot="start" size="small" color="light" name="thermometer"></ion-icon>
+      <ion-icon slot="end" color="light" name="thermometer"></ion-icon>
+    </ion-range>
+
+    <ion-label>WIND</ion-label>
+ 
+    <ion-range min="1000" max="2000" step="100" value="1400" snaps color="light">
+      <ion-icon slot="start" size="small" color="light" name="thermometer"></ion-icon>
+      <ion-icon slot="end" color="light" name="thermometer"></ion-icon>
+    </ion-range>
+    <ion-row style="height: 50px"></ion-row>
+  
+  <ion-row>
+    <ion-col>
+      <ion-button  [routerLink]="['/lastquestion']" class="next" type="submit" color="secondary" expand="block">NEXT</ion-button>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-button  [routerLink]="['/question1']" class="back" type="submit" color="secondary" expand="block">BACK</ion-button>
+    </ion-col>
+  </ion-row>
+
+  </ion-content>

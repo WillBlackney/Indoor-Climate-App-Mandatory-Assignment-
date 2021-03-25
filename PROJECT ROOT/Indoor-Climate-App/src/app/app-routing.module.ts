@@ -33,6 +33,18 @@ const routes: Routes = [
     path: 'welcome',
     loadChildren: () => import('./welcome/welcome.module').then( m => m.WelcomePageModule)
   },
+  {
+    path: 'question2',
+    loadChildren: () => import('./question2/question2.module').then( m => m.Question2PageModule)
+  },
+  {
+    path: 'lastquestion',
+    loadChildren: () => import('./lastquestion/lastquestion.module').then( m => m.LastquestionPageModule)
+  },
+  {
+    path: 'lastpage',
+    loadChildren: () => import('./lastpage/lastpage.module').then( m => m.LastpagePageModule)
+  },
 
 
 ];
