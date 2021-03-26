@@ -21,9 +21,13 @@ const routes: Routes = [
   // },
   {
     path: '',
-    redirectTo: 'welcome',
+    redirectTo: 'qrcode',
     pathMatch: 'full'
 
+  },
+  {
+    path: 'qrcode',
+    loadChildren: () => import('./qrcode/qrcode.module').then( m => m.QrcodePageModule)
   },
   {
     path: 'welcome',
@@ -46,9 +50,14 @@ const routes: Routes = [
   {
     path: 'setup',
     loadChildren: () => import('./setup/setup.module').then( m => m.SetupPageModule)
-  },  {
+  },
+  {
     path: 'qrcode',
     loadChildren: () => import('./qrcode/qrcode.module').then( m => m.QrcodePageModule)
+  },
+  {
+    path: 'home',
+    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
 
 

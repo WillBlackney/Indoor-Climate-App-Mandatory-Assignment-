@@ -41,5 +41,14 @@ ion-header{
     font-size: 3em;
 
 }
-
+.next {
+    width: 270px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #2DA8F1, #E05BF1);
+  }
 

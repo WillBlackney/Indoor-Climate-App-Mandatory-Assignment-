@@ -1,19 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import { BarcodeScanner, BarcodeScannerOptions } from '@ionic-native/barcode-scanner/ngx';
 
+
 @Component({
   selector: 'app-qrcode',
   templateUrl: './qrcode.page.html',
   styleUrls: ['./qrcode.page.scss'],
 })
-export class QrcodePage implements OnInit {
+export class QrcodePage {
   scannedData: any;
   encodedData: '';
   encodeData: any;
   inputData: any;
 
   constructor(private barcodeScanner: BarcodeScanner) { }
-  
   scanBarcode() {
     const options: BarcodeScannerOptions = {
       preferFrontCamera: false,
@@ -35,11 +35,21 @@ export class QrcodePage implements OnInit {
     });
   }
 
-
-
-  ngOnInit() {
+  createBarcode() {
+    this.barcodeScanner.encode(this.barcodeScanner.Encode.TEXT_TYPE, this.inputData).then((encodedData) => {
+      console.log(encodedData);
+      this.encodedData = encodedData;
+    }, (err) => {
+      console.log('Error occured : ' + err);
+    });
   }
 
 
+
+  
+
+  
+
+ 
 
 }
