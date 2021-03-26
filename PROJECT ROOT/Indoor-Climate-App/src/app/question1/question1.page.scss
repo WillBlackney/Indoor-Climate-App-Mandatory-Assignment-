@@ -1,0 +1,78 @@
+ion-header {
+    background: #081A24 ;
+    border-bottom: 2em solid#081A24 ;
+}
+ion-menu-button {
+    color: white;
+    float: left;
+    width: unset;
+    font-size: 2em;
+    margin-top: 0.3em;
+    margin-left: 0.3em;
+}
+.qbuttons {
+    background: #152B38;
+    margin-bottom: 0.5em;
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #2DA8F1, #E05BF1);
+}
+.usericon {
+  color: white;
+  font-size: 2em;
+  float: right;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+}
+// .next-btn {
+//     background: #152B38;
+//     position:absolute;
+//     margin-bottom: 0.5em;
+//     bottom: 20%;
+//     left: 10%;
+//     right: 10%;
+//     width: 80%;
+//     height: 12vh;
+//     border: 1px solid;
+//     border-image-slice: 1;
+//     border-width: 3px;
+//     border-image-source: linear-gradient(to left, #2DA8F1, #E05BF1);
+// }
+
+// .back-btn {
+//     background: #152B38;
+//     position:absolute;
+//     bottom: 5%;
+//     left: 10%;
+//     right:10%;
+//     width: 80%;
+//     height: 12vh;
+//     border: 1px solid;
+//     border-image-slice: 1;
+//     border-width: 3px;
+//     border-image-source: linear-gradient(to left, #2DA8F1, #E05BF1);
+// }
+.next {
+    width: 270px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #2DA8F1, #E05BF1);
+  }
+  
+.header-md::after {
+    display: none !important;
+}
+ion-title{
+  margin-bottom: 1em;
+   font-size: 1.7rem;
+}
+

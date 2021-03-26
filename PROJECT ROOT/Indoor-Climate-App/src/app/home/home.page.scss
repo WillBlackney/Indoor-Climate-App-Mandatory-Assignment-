@@ -62,12 +62,24 @@ ion-menu-button {
 ion-card-header {
   background: linear-gradient(to left, #2DA8F1, #E05BF1);
 
+  color: white;
+
+}
+ion-card-subtitle{
+  color: white;
+}
+ion-card-title{
+  color: white;
+}
+ion-icon{
+  color: white;
 }
 
 /*
 .range{
-  -ms-transform: rotate(-90deg); 
- -webkit-transform: rotate(-90deg); 
+  -ms-transform: rotate(-90deg);
+ -webkit-transform: rotate(-90deg);
+
  transform: rotate(-90deg);
  margin-bottom: 200px;
 }
@@ -82,3 +94,4 @@ ion-card-header {
 ion-label {
   color:#ffffff;
 }
+

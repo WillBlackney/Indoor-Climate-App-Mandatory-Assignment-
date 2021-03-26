@@ -1,0 +1,54 @@
+.setup-img {
+    width: 200px;
+    position: absolute;
+    left: 20%; 
+    right: 20%;
+    top: 42%; 
+    -webkit-animation: spin 5s linear infinite;
+    -moz-animation: spin 5s linear infinite;
+    animation: spin 5s linear infinite;
+  }
+
+  @-webkit-keyframes spin {
+      100% {
+          -webkit-transform: rotate(360deg);
+      }
+  }
+  @-moz-keyframes spin {
+      100% {
+          -webkit-transform: rotate(360deg);
+      }
+  }
+  @keyframes spin {
+      100% {
+          -webkit-transform: rotate(360deg);
+      }
+  }
+
+  ion-menu-button {
+    color: white;
+    background-color:  #081A24;
+    float: left;
+    width: unset;
+    font-size: 2em;
+    margin-top: 0.3em;
+    margin-left: 0.3em;
+}
+ion-header{
+    background-color: #081A24;
+}
+.ion-text-center{
+    font-size: 3em;
+
+}
+.next {
+    width: 270px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #2DA8F1, #E05BF1);
+  }
+

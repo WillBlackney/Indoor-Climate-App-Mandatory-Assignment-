@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-menu-button menu="main-menu"></ion-menu-button>
+</ion-header>
+
+<ion-content color="primary">
+  <ion-title color="light" class="ion-text-center">What do you prefer?</ion-title>
+  <ion-button class="qbuttons" size="large">SUMMER
+
+  </ion-button>
+  <ion-button class="qbuttons" size="large">FALL</ion-button>
+  <ion-button class="qbuttons" size="large" style="background-image: url('assets/images/beach.png');">WINTER</ion-button>
+  <ion-button class="qbuttons" size="large">SPRING</ion-button>
+  <ion-row style="height: 50px"></ion-row>
+  <ion-row>
+    <ion-col>
+  <ion-button [routerLink]="['/question2']" class="next-btn" class="next" type="submit" color="secondary" expand="block">NEXT</ion-button>
+</ion-col>
+</ion-row>
+<ion-row>
+  <ion-col>
+  <ion-button  [routerLink]="['/question1']" class="back-btn" class="next" type="submit" color="secondary" expand="block">BACK</ion-button>
+</ion-col>
+</ion-row>
+</ion-content>

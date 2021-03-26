@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-menu-button menu="main-menu"></ion-menu-button>
+  
+</ion-header>
+  
+<ion-content color="primary">
+  <ion-title class="ion-text-center" color="light" >When are you<br>
+     most comfortable?</ion-title>
+  <ion-row style="height: 50px"></ion-row>
+  <ion-label>CELSIUS</ion-label>
+  <ion-range min="20" max="80" step="2"  color="light">
+    <ion-icon slot="start" size="small" color="light" name="thermometer"></ion-icon>
+    <ion-icon slot="end" color="light" name="thermometer"></ion-icon>
+    </ion-range>
+    <ion-label>HUMIDITY</ion-label>
+  
+    <ion-range min="20" max="80" step="2"  color="light">
+      <ion-icon slot="start" size="small" color="light" name="water-outline"></ion-icon>
+      <ion-icon slot="end" color="light" name="water-outline"></ion-icon>
+    </ion-range>
+
+    <ion-label></ion-label>
+  
+    <ion-range min="20" max="80" step="2"color="light">
+      <ion-icon slot="start" size="small" color="light"name="rainy-outline"></ion-icon>>
+      <ion-icon slot="end" color="light"  name="sunny-outline"></ion-icon>>
+    </ion-range>
+
+  <ion-row style="height: 30px"></ion-row>
+  
+  <ion-row>
+    <ion-col>
+      <ion-button  [routerLink]="['/setup']" class="next" type="submit" color="secondary" expand="block">NEXT</ion-button>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-button  [routerLink]="['/question1']" class="back" type="submit" color="secondary" expand="block">BACK</ion-button>
+    </ion-col>
+  </ion-row>
+
+  </ion-content>

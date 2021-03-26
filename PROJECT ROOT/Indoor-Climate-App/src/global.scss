@@ -26,6 +26,23 @@
 @import "~@ionic/angular/css/flex-utils.css";
 
 :root {
-  /* Set the background of the entire app */
-  --ion-background-color: #081A24;
+
+  --ion-color-secondary: #152B38;
+  --ion-color-secondary-rgb: 0,102,0;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255,255,255;
+  --ion-color-secondary-shade: #152B38;
+  --ion-color-secondary-tint: #152B38;
+
+  --ion-color-primary: #081A24;
+  --ion-color-primary-rgb: 0,102,0;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255,255,255;
+  --ion-color-primary-shade: #081A24;
+  --ion-color-primary-tint: #081A24;
+ 
+    /* Set the background of the entire app */
+    --ion-background-color: #081A24;
+
+
 }
